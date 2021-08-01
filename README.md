@@ -1,6 +1,6 @@
-# [GitHub Stats Visualization](https://github.com/jstrieb/github-stats)
+# [GitHub Stats Visualization](https://github.com/init1lham/github-stats)
 
-<a href="https://github.com/jstrieb/github-stats">
+<a href="https://github.com/init1lham/github-stats">
 
 ![](https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg)
 ![](https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg)
@@ -52,9 +52,9 @@ last contributed to more than a year ago may not be included in the statistics
 due to limitations in the results returned by the API.
 
 For more information on inaccuracies, see issue
-[#2](https://github.com/jstrieb/github-stats/issues/2),
-[#3](https://github.com/jstrieb/github-stats/issues/3), and
-[#13](https://github.com/jstrieb/github-stats/issues/13).
+[#2](https://github.com/init1lham/github-stats/issues/2),
+[#3](https://github.com/init1lham/github-stats/issues/3), and
+[#13](https://github.com/init1lham/github-stats/issues/13).
 
 # Installation
 
@@ -87,7 +87,7 @@ For more information on inaccuracies, see issue
    - To show statistics only for "owned" repositories and not forks with
      contributions, add an environment variable (under the `env` header in the
      [main
-     workflow](https://github.com/jstrieb/github-stats/blob/master/.github/workflows/main.yml))
+     workflow](https://github.com/init1lham/github-stats/blob/master/.github/workflows/main.yml))
      called `EXCLUDE_FORKED_REPOS` with a value of `true`.
 6. Go to the [Actions
    Page](../../actions?query=workflow%3A"Generate+Stats+Images") and press "Run
@@ -99,37 +99,3 @@ For more information on inaccuracies, see issue
 8. Link back to this repository so that others can generate their own
    statistics images.
 9. Star this repo if you like it!
-
-
-# Support the Project
-
-There are a few ways to support this project.
-
-Most importantly: star this repository and follow me on GitHub. These things
-motivate me to to keep sharing what I build, and they provide validation that
-my work is appreciated. In the same vein, please consider sharing the project
-on platforms like Reddit and Twitter.
-
-Stars on GitHub also help me gauge who is making use of the project – since I
-do not include tracking or analytics in this or any project, I have no idea how
-many people use what I build unless they deliberately take action to notify me.
-If GitHub is not your style, reach out to me on my [contact
-page](https://jstrieb.github.io/about/#contact) and say "hello" instead! 
-
-If you are insistent on spending money to show your support, I encourage you to
-make a generous donation to one of the following organizations. By advocating
-for Internet freedoms, organizations like these help me to feel comfortable
-releasing work publicly on the Web.
-
-- [Electronic Frontier Foundation](https://supporters.eff.org/donate/)
-- [Signal Foundation](https://signal.org/donate/)
-- [Mozilla](https://donate.mozilla.org/en-US/)
-- [The Internet Archive](https://archive.org/donate/index.php)
-
-
-# Related Projects
-
-- Inspired by a desire to improve upon
-  [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-- Makes use of [GitHub Octicons](https://primer.style/octicons/) to precisely
-  match the GitHub UI
